@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0bb8559-449e-4944-b2aa-9dc47789b1d5" name="Default" comment="添加日志">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/welcome.html" afterPath="" />
+    <list default="true" id="d0bb8559-449e-4944-b2aa-9dc47789b1d5" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archive/201507.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archive/201507/page/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/1464315259.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/category/1464315259/page/1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/1464315259.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags/1464315259/page/1.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/201005.html" afterPath="$PROJECT_DIR$/archive/201005.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/201005/page/1.html" afterPath="$PROJECT_DIR$/archive/201005/page/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/1849290301.html" afterPath="$PROJECT_DIR$/category/1849290301.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/1849290301/page/1.html" afterPath="$PROJECT_DIR$/category/1849290301/page/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed.xml" afterPath="$PROJECT_DIR$/feed.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/1.html" afterPath="$PROJECT_DIR$/page/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/680406610.html" afterPath="$PROJECT_DIR$/tags/680406610.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/680406610/page/1.html" afterPath="$PROJECT_DIR$/tags/680406610/page/1.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,6 +127,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clouds-hu.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clouds-hu.github.io" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -198,7 +230,7 @@
       <updated>1487167029446</updated>
       <workItem from="1487167030821" duration="97000" />
       <workItem from="1487167245890" duration="2823000" />
-      <workItem from="1487203282790" duration="3444000" />
+      <workItem from="1487203282790" duration="5082000" />
     </task>
     <task id="LOCAL-00001" summary="添加日志">
       <created>1487167870776</created>
@@ -228,11 +260,39 @@
       <option name="project" value="LOCAL" />
       <updated>1487217888842</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="添加日志">
+      <created>1487218028035</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1487218028035</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加日志">
+      <created>1487218214024</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1487218214024</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加日志">
+      <created>1487225711520</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1487225711520</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加日志">
+      <created>1487227867763</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1487227867763</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6364000" />
+    <option name="totallyTimeSpent" value="8002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -317,6 +377,11 @@
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/img/logo_64x64.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

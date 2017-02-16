@@ -4,8 +4,8 @@
         <description>胡云南的个人博客.</description>
         <link>http://mygitblog.com</link>
         <atom:link href="http://mygitblog.com/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>2017-02-16 04:02:56</pubDate>
-        <lastBuildDate>2017-02-16 04:02:56</lastBuildDate>
+        <pubDate>2017-02-16 06:02:23</pubDate>
+        <lastBuildDate>2017-02-16 06:02:23</lastBuildDate>
         <generator>Gitblog v1.0</generator>
                 <item>
             <title>WAMP环境搭建教程</title>
@@ -156,20 +156,20 @@ http://www.microsoft.com/en-us/download/details.aspx?id=30679
             <description>
             &lt;!--
 author: clouds.hu
-head: 
+head: img/logo_128x128.png
 date: 2010-05-07 
 title: 首首最爱
 tags: music
 images: 
 category: relax
 status: publish
-summary: 有时候我觉得这些歌是我生活的全部，因为我是多么的醉爱他们啊！
---&gt;    
-----------
- 这些歌曲是我这几年来收集的，听了又听，首首都曾感动过我。我无聊寂寞心情不好的时候都找他了！有时候我觉得这些歌是我生活的全部，因为我是多么的醉爱他们啊！
-----------
-![Alt text](img/ssza1.jpg)
-![Alt text](img/ssza2.jpg)            </description>
+summary: 有时候我觉得这些歌是我生活的全部，因为我是多么的醉爱他们啊
+--&gt;
+&lt;hr /&gt;
+&lt;p&gt;这些歌曲是我这几年来收集的，听了又听，首首都曾感动过我。我无聊寂寞心情不好的时候都找他了！有时候我觉得这些歌是我生活的全部，因为我是多么的醉爱他们啊！&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;img src=&quot;img/ssza1.jpg&quot; alt=&quot;Alt text&quot; /&gt;
+&lt;img src=&quot;img/ssza2.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;            </description>
             <pubDate>2017-02-16 01:51:56</pubDate>
             <link>http://mygitblog.com/blog/20100507ssza.html</link>
             <guid isPermaLink="true">http://mygitblog.com/blog/20100507ssza.html</guid>
