@@ -4,88 +4,299 @@
         <description>胡云南的个人博客.</description>
         <link>http://mygitblog.com</link>
         <atom:link href="http://mygitblog.com/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>2017-02-15 13:02:15</pubDate>
-        <lastBuildDate>2017-02-15 13:02:15</lastBuildDate>
+        <pubDate>2017-02-16 04:02:56</pubDate>
+        <lastBuildDate>2017-02-16 04:02:56</lastBuildDate>
         <generator>Gitblog v1.0</generator>
                 <item>
-            <title>clouds.hu的博客</title>
+            <title>WAMP环境搭建教程</title>
             <description>
             &lt;!--
-author: cloudshu
+author: clouds.hu
 head: 
-date: 2015-07-31
-title: clouds.hu的博客
-tags: resume
-images: http://pingodata.qiniudn.com/cube2.jpg
-category: resume
+date: 2015-06-04
+title: WAMP环境搭建教程
+tags: wamp
+images: 
+category: wamp
 status: publish
-summary: GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。
+summary: 
 --&gt;
-&lt;h2&gt;一. 简介&lt;/h2&gt;
-&lt;p&gt;GitBlog是一个简单易用的Markdown博客系统，它不需要数据库，没有管理后台功能，更新博客只需要添加你写好的Markdown文件即可。它摆脱了在线编辑器排版困难，无法实时预览的缺点，一切都交给Markdown来完成，一篇博客就是一个Markdown文件。同时也支持评论，代码高亮，数学公式，页面PV统计等常用功能。GitBlog提供了不同的主题样式，你可以根据自己的喜好配置，如果你想自己制作博客主题，也是非常容易的。GitBlog还支持整站静态导出，你完全可以导出整站静态网页部署到Github Pages。&lt;/p&gt;
-&lt;h2&gt;二. 功能特点&lt;/h2&gt;
+&lt;h2&gt;一、下载软件包:&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;使用Markdown  &lt;/li&gt;
-&lt;li&gt;评论框  &lt;/li&gt;
-&lt;li&gt;代码高亮  &lt;/li&gt;
-&lt;li&gt;PV统计  &lt;/li&gt;
-&lt;li&gt;Latex数学公式  &lt;/li&gt;
-&lt;li&gt;自制主题  &lt;/li&gt;
-&lt;li&gt;响应式  &lt;/li&gt;
-&lt;li&gt;全站静态导出  &lt;/li&gt;
-&lt;li&gt;良好的SEO  &lt;/li&gt;
+&lt;li&gt;PHP&lt;br&gt;
+&lt;a href=&quot;http://php.net/&quot;&gt;php下载&lt;/a&gt;&lt;br&gt;
+php-5.5.35-Win32-VC11-x64.zip&amp;nbsp;&amp;nbsp;这里我们选择的是线程安全版&lt;/li&gt;
+&lt;li&gt;MySQL&lt;br&gt;
+&lt;a href=&quot;https://www.mysql.com/&quot;&gt;MySQL下载&lt;/a&gt;&lt;br&gt;
+Note: MySQL Installer is 32 bit, but will install both 32 bit and 64 bit binaries.&lt;br&gt;
+mysql-installer-community-5.5.49.0.msi  安装版&lt;br&gt;
+mysql-5.7.12-winx64.zip 免安装版&lt;br&gt;
+有安装版和免安装版, 这里我们选择的是安装版.&lt;/li&gt;
+&lt;li&gt;Apache&lt;br&gt;
+&lt;a href=&quot;http://www.apache.org/&quot;&gt;apache下载&lt;/a&gt;&lt;br&gt;
+&lt;a href=&quot;http://www.apachelounge.com/download/&quot;&gt;http://www.apachelounge.com/download/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;VC11&lt;br&gt;
+安装apache前必须先安装VC11（VSU_4\vcredist_x64.exe）
+&lt;a href=&quot;http://www.microsoft.com/en-us/download/details.aspx?id=30679&quot;&gt;VC11下载地址&lt;/a&gt;
+选择英文版的&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;三. GitBlog优势&lt;/h2&gt;
+&lt;h2&gt;二、安装:&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;无需数据库，系统更轻量，移植更方便  &lt;/li&gt;
-&lt;li&gt;使用Markdown编写，摆脱后台编辑排版困难，无法实时预览的缺点  &lt;/li&gt;
-&lt;li&gt;可全站静态导出  &lt;/li&gt;
-&lt;li&gt;配置灵活，可自由开关某些功能  &lt;/li&gt;
-&lt;li&gt;多主题支持，可自制主题  &lt;/li&gt;
-&lt;li&gt;博客，分类，标签，归档  &lt;/li&gt;
+&lt;li&gt;安装VC11，双击打开，点击若干个下一步直至安装成功就OK了；&lt;/li&gt;
+&lt;li&gt;Apache 下载后是zip包，解压放在合适的位置就可以了，这里我们放在D:\PHPTools文件夹下的apache2.4目录下&lt;/li&gt;
+&lt;li&gt;PHP下载后也是zip包，同样解压到合适位置，我们这里也将其放在D:\PHPTools文件夹下的php5.5目录下&lt;/li&gt;
+&lt;li&gt;MySQL安装&lt;br&gt;
+&lt;a href=&quot;http://jingyan.baidu.com/article/4b07be3c67853c48b380f311.html&quot;&gt;安装教程&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;四. 环境要求&lt;/h2&gt;
-&lt;p&gt;PHP 5.2.4+&lt;/p&gt;
-&lt;h2&gt;五. 安装步骤&lt;/h2&gt;
+&lt;h2&gt;三、配置(MySQL、PHP):&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;下载GitBlog源代码  &lt;/li&gt;
-&lt;li&gt;解压上传到你的PHP网站根目录  &lt;/li&gt;
-&lt;li&gt;打开浏览器，访问网站首页  &lt;/li&gt;
-&lt;li&gt;上传Markdown文件到&lt;code&gt;posts&lt;/code&gt;文件夹  &lt;/li&gt;
+&lt;li&gt;将D:\phptools\php5.5\php.ini-production 复制一份，并重命名为php.ini；&lt;/li&gt;
+&lt;li&gt;右键属性--&amp;gt;高级系 统设置 --&amp;gt;环境变量--&amp;gt;系统变量，找到Path，编辑，在其后加上
+;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\PHPTools\php5.5;D:\PHPTools\php5.5\ext&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;六. 详细说明&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/install.md&quot;&gt;1. 安装&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/struct.md&quot;&gt;2. 目录结构&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/config.md&quot;&gt;3. 配置说明&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/edit.md&quot;&gt;4. 编写博客&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/other-func.md&quot;&gt;5. 评论，订阅，统计等&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/cache.md&quot;&gt;6. 缓存机制&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/export.md&quot;&gt;7. 全站静态导出&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/theme.md&quot;&gt;8. 主题制作&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/nginx.md&quot;&gt;9. 在Nginx上运行GitBlog&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/apache.md&quot;&gt;10. 在Apache上运行GitBlog&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/sae.md&quot;&gt;11. 在SAE上运行GitBlog&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/github-pages.md&quot;&gt;12. 使用GitBlog和Github Pages搭建博客&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/update.md&quot;&gt;13. Gitblog升级&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/jockchou/gitblogdoc/tree/master/posts/gitblog/wordpress.md&quot;&gt;14. 从wordpress导入&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;七. 问题及bug反馈&lt;/h2&gt;
-&lt;p&gt;如果在实际使用过程中对GitBlog有新的功能需求，或者在使用GitBlog的过程中发现了Bug，欢迎反馈给我。可以直接在Github上提交，也可以发邮件至&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;与我取得联系，我将及时回复。如果你自己制作了漂亮好用的主题，也非常欢迎你提交给我，我会在这里展示你的主题链接。如果你正在使用GitBlog，也可以告诉我，我将也会在这里列出使用者名单。如果你想和其他GitBlog使用者讨论交流，欢迎加入QQ群&lt;code&gt;84692078&lt;/code&gt;。&lt;/p&gt;
-&lt;h2&gt;八. 使用者列表&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://blog.hiweeds.net&quot;&gt;Weeds&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://xiaochengzi.sinaapp.com&quot;&gt;橙子&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://jockchou.com&quot;&gt;jockchou&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://github.com/jockchou/gitblogdoc&quot;&gt;GitBlog Doc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://zxy.link&quot;&gt;zxy&lt;/a&gt;  &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;九. 感谢&lt;/h2&gt;
-&lt;p&gt;GitBlog的成长需要喜欢Markdown，喜欢写博客的各位亲们支持！感谢你们使用GitBlog，感激你们对Gitblog的良好建议与Bug反馈。&lt;/p&gt;
-&lt;p&gt;QQ群：&lt;code&gt;84692078&lt;/code&gt;&lt;br /&gt;
-作者邮箱：&lt;code&gt;164068300[AT]qq.com&lt;/code&gt;    &lt;/p&gt;            </description>
+&lt;h2&gt;四、配置Apache:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;用记事本打开F:\phptools\Apache2.4\Apache24\conf\httpd.conf
+查找ServerRoot，修改ServerRoot &amp;quot;C:/Apache24&amp;quot; =&amp;gt; ServerRoot &amp;quot;D:\PHPTools\apache2.4\apache24&amp;quot;
+（这里输入的是你解压apache安装包后放的位置）&lt;/li&gt;
+&lt;li&gt;
+&lt;h1&gt;ServerName www.example.com:80 去掉&lt;/h1&gt;
+&lt;/li&gt;
+&lt;li&gt;DocumentRoot &amp;quot;c:/Apache24/htdocs&amp;quot; ， 修改为DocumentRoot &amp;quot;F:/phptools/Apache2.4/Apache24/htdocs&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;lt;Directory &amp;quot;c:/Apache24/htdocs&amp;quot;&amp;gt; ，修改为 &amp;lt;Directory &amp;quot; F:/phptools/Apache2.4/Apache24/htdocs &amp;quot;&amp;gt;&lt;/li&gt;
+&lt;li&gt;查找DirectoryIndex index.html ，添加index.php index.htm&lt;/li&gt;
+&lt;li&gt;c/cgi-bin/ &amp;quot;c:/Apache24/cgi-bin/&amp;quot;  ，修改为 ScriptAlias /cgi- bin/ &amp;quot;D:/PHPTools/apache2.4/apache24/cgi-bin/&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;lt;Directory &amp;quot;c:/Apache24/cgi-bin&amp;quot;&amp;gt; 修改为 &amp;lt;Directory &amp;quot;D:/PHPTools/apache2.4/apache24/cgi-bin&amp;quot;&amp;gt;&lt;/li&gt;
+&lt;li&gt;在D:\PHPTools\apache2.4\apache24\conf\httpd.conf最后一行添加
+LoadModule php5_module &amp;quot;D:/PHPTools/php5.5/php5apache2_4.dll&amp;quot;
+让apache支持php（请确认D:/PHPTools/php5.5/有php5apache2_4.dll）&lt;/li&gt;
+&lt;li&gt;添加AddType application/x-httpd-php .php .html .htm&lt;/li&gt;
+&lt;li&gt;PHPIniDir &amp;quot;D:/PHPTools/php5.5&amp;quot; （告诉apache php.ini的位置）&lt;br&gt;
+&lt;strong&gt;httpd.conf 配置完成，保存httpd.conf&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;五、将Apache安装到系统服务中:&lt;/h2&gt;
+&lt;p&gt;以管理员身份运行cmd.exe，cd到apache所在的磁盘D:，
+输入D:\PHPTools\apache2.4\apache24\bin\httpd -k install回车安装&lt;/p&gt;
+&lt;h2&gt;六、开启常用的PHP扩展:&lt;/h2&gt;
+&lt;p&gt;记事本打开D:\PHPTools\php5.5\php.ini开启如下扩展
+1、;extension_dir = &amp;quot;ext&amp;quot;
+2、;extension=php_mbstring.dll（php多字节字符串扩展）
+3、;extension=php_mysql.dll
+4、;extension=php_mysqli.dll&lt;/p&gt;
+&lt;h2&gt;七、启动apache和mysql:&lt;/h2&gt;
+&lt;p&gt;双击D:\PHPTools\apache2.4\apache24\bin\ApacheMonitor.exe启动&lt;/p&gt;
+&lt;h2&gt;八、搭建过程遇到的问题:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;路由问题(一般存在下面三个问题, 如果还有出现其他情况 ,可以提出来一起研究):&lt;br&gt;
+第一步检查httpd.conf中#LoadModule rewrite_module modules/mod_rewrite.so是否开启;&lt;br&gt;
+第二步检查httpd.conf和httpd-vhosts.conf的AllowOverride None全部更改为All&lt;br&gt;
+第三步检查.htaccess 文件设置RewriteEngine On是否为on&lt;/li&gt;
+&lt;li&gt;openssl问题&lt;br&gt;
+(1) 首先检查php.ini中；extension=php_openssl.dll是否存在， 如果存在的话去掉前面的注释符‘；’， 如果不存在这行，那么添加extension=php_openssl.dll。&lt;br&gt;
+(2) 将php文件夹下的： php_openssl.dll， ssleay32.dll， libeay32.dll 3个文件拷贝到 WINDOWS\system32\ 文件夹下。&lt;br&gt;
+(3) 如果没有 php_openssl.dll ，点击下载 &lt;a href=&quot;http://www.haorooms.com/uploads/js/php_openssl%28haorooms.com%29.rar&quot;&gt;php_openssl.dll&lt;/a&gt;
+下载下来有很多个php_openssl，找到你相应php版本下面的php_openssl。
+查看php版本(phpinfo()), 找到相应版本之后，按照上面讲的第二步来就可以了。&lt;br&gt;
+(4) 重启apache至此，openssl功能就开启了。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;九、其他配置:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;配置apache根目录
+在httpd.conf下找到
+DocumentRoot &amp;quot;D:\PHPTools\apache2.4\apache24\htdocs&amp;quot;  =&amp;gt;配置你的目录
+&amp;lt;Directory &amp;quot;D:\PHPTools\apache2.4\apache24\htdocs&amp;quot;&amp;gt;  =&amp;gt;配置你的目录
+... ...
+&lt;/Directory&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;配置虚拟主机, 在httpd.conf=》
+#Virtual hosts
+#Include conf/extra/httpd-vhosts.conf（去掉#）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在httpd-vhosts.conf中进行配置&lt;br&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-blade&quot;&gt;&amp;lt;VirtualHost *:80&amp;gt;
+    DocumentRoot &quot;E:/workspace/demo&quot;
+    ServerName demo.com
+    DirectoryIndex index.php
+    &amp;lt;Directory/&amp;gt;
+    Options FollowSymLinks
+    AllowOverride None
+    Order allow,deny
+    Allow from all
+    &amp;lt;/Directory&amp;gt;
+&amp;lt;/VirtualHost&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;十、常用网址&lt;/h2&gt;
+&lt;pre&gt;
+svn/git web:
+https://tortoisesvn.net/
+https://tortoisegit.org/
+git web:
+https://git-scm.com/
+mysql:
+https://www.mysql.com/
+svn web:
+https://tortoisesvn.net/
+apache:
+http://www.apache.org/
+http://www.apachelounge.com/download/
+php:
+http://php.net/
+nodejs:
+http://nodejs.org/
+VC11:
+http://www.microsoft.com/en-us/download/details.aspx?id=30679
+&lt;/pre&gt;            </description>
+            <pubDate>2017-02-16 03:30:49</pubDate>
+            <link>http://mygitblog.com/blog/20150604hjpzjc.html</link>
+            <guid isPermaLink="true">http://mygitblog.com/blog/20150604hjpzjc.html</guid>
+                                               <category>wamp</category>
+                                    </item>
+                <item>
+            <title>首首最爱</title>
+            <description>
+            &lt;!--
+author: clouds.hu
+head: 
+date: 2010-05-07 
+title: 首首最爱
+tags: music
+images: 
+category: relax
+status: publish
+summary: 有时候我觉得这些歌是我生活的全部，因为我是多么的醉爱他们啊！
+--&gt;    
+----------
+ 这些歌曲是我这几年来收集的，听了又听，首首都曾感动过我。我无聊寂寞心情不好的时候都找他了！有时候我觉得这些歌是我生活的全部，因为我是多么的醉爱他们啊！
+----------
+![Alt text](img/ssza1.jpg)
+![Alt text](img/ssza2.jpg)            </description>
+            <pubDate>2017-02-16 01:51:56</pubDate>
+            <link>http://mygitblog.com/blog/20100507ssza.html</link>
+            <guid isPermaLink="true">http://mygitblog.com/blog/20100507ssza.html</guid>
+                                               <category>relax</category>
+                                    </item>
+                <item>
+            <title>饥饿赶不走思念</title>
+            <description>
+            &lt;!--
+author: clouds.hu
+head: 
+date: 2008-11-05 
+title: 饥饿赶不走思念
+tags: emotion
+images: 
+category: diary
+status: publish
+summary: 
+--&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 饿肚可不好受，可我竟品尝着饥饿就像品尝着想起你时的那种酸楚。有一次，我美美地饱餐一顿然后坐着等待饥饿的到来。饥饿经过一段漫长的等待终于到来了，我显然有点兴奋，我打开电脑打开我珍藏电影的文件夹，《泰坦尼克号》映入眼帘，哇，久违的一部多么凄美的爱情故事啊！泰坦尼克号上惨绝人寰的悲剧发生那刻，人类本性中的善良与丑恶、高贵与卑劣更加分明。杰克把生存的机会让给了爱人罗丝，自己则在冰海中被冻死。老态龙钟的罗丝讲完这段哀恸天地的爱情之后，把那串价值连城的珠宝沉入海底，让它陪着杰克和这段爱情长眠海底。我被影片里的故事感动得一塌糊涂，匆匆看完电影才突然发觉肚子饿得厉害，胃里似乎有什么东西在乱串，可我脑海里却翻滚着陈年的回忆。跟你在一起的每个细节都不容错过，我要美美地想它一遍，有时会挠到我的最痛处，可我却贪婪地添着自己的伤口。每当饥饿猛烈地侵略着神经，一阵阵感伤很快就将饥饿驱除。&lt;/p&gt;
+&lt;/blockquote&gt;            </description>
+            <pubDate>2017-02-16 01:41:56</pubDate>
+            <link>http://mygitblog.com/blog/20081105jegbzsn.html</link>
+            <guid isPermaLink="true">http://mygitblog.com/blog/20081105jegbzsn.html</guid>
+                                               <category>diary</category>
+                                    </item>
+                <item>
+            <title>尸行夜空下</title>
+            <description>
+            &lt;!--
+author: clouds.hu
+head: img/logo_128x128.png
+date: 2008-6-20 14:50 
+title: 尸行夜空下
+tags: emotion
+images: 
+category: diary
+status: publish
+summary: 找不到合适的词句能表达此时此刻的心情
+--&gt;
+&lt;pre&gt;&lt;code&gt;找不到合适的词句能表达此时此刻的心情
+
+静谧的夜空下又想起不该想起的你
+
+也许是这颗被空虚占领了太久的心
+
+迫切点什么
+
+月光倾泻
+
+眼前却是一片散不开的云雾
+
+穿梭其中
+
+脚下是否有不可预知的沼地
+
+或许是献身于狼口
+
+呵，塌陷在沼泽里吧
+
+一俱行尸是如何会在意自己身处何地
+
+还是，让饥饿的狼群饱餐一顿吧
+
+好过这无边的游荡&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;img/shixingyekongxia.jpg&quot; alt=&quot;Alt text&quot; /&gt;&lt;/p&gt;            </description>
             <pubDate>2017-02-15 10:14:07</pubDate>
-            <link>http://mygitblog.com/blog/welcome.html</link>
-            <guid isPermaLink="true">http://mygitblog.com/blog/welcome.html</guid>
-                                               <category>resume</category>
+            <link>http://mygitblog.com/blog/20080620sxykx.html</link>
+            <guid isPermaLink="true">http://mygitblog.com/blog/20080620sxykx.html</guid>
+                                               <category>diary</category>
+                                    </item>
+                <item>
+            <title>望月怀远</title>
+            <description>
+            &lt;!--
+author: clouds.hu
+head: 
+date: 2008-04-19 
+title: 望月怀远
+tags: emotion
+images: 
+category: diary
+status: publish
+summary: 今天读到《红楼梦》中“原来明日是端阳节，那文官等十二个女孩子都放了学
+--&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 今天读到《红楼梦》中“原来明日是端阳节，那文官等十二个女孩子都放了学，进园来各处玩耍。可巧小生宝官正旦玉官两个女孩子，正在怡红院和袭人玩笑，被雨阻住，大家堵了沟，把水积在院内，拿些绿头鸭、花鸂鶒、彩鸳鸯，捉的捉，赶的赶，缝了翅膀，放在院内玩耍，将院门关了。”忽然发现自己过了童年之后从未感受到书中女孩们的那种快乐。多么期盼能再次感受少时玩捉迷藏、弹跳珠、图牌等等那种互相嬉戏打闹的欢乐的场面！可惜光阴不复，我们在看到岁月渐渐流逝的同时可曾知道我们最宝贵的童真也在慢慢消失，虽然我们得到了可贵的成熟，却发现成熟的我们对周遭的世界过于敏感。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 晚上，我惯例的在操场做完运动就去食堂吃宵夜，忽然有一股冲动涌上心头：我要找回我早已失去的童真，就像人们努力的想找回初恋的感觉！于是，我就在食堂打包了一个炸鸡腿，在草坪上找了一个幽静的地方坐了下来，使劲地翻阅着记忆的画面寻觅灵感。此时，清风袭来，给本来黏黏的身子增添了些许凉意，身边的树叶在月亮的盛情下，饮醉了月光活像一个醉汉找不着平衡感。忽然，耳边传来咯、咯、咯... ...夹杂着打闹的声音，接着出现了一群孩子，其中有个蒙着眼的小男孩在草坪上追着其他的孩子，时而窜进草丛；时而饶过小树；时而趴下；有个小女孩伸手去拍那蒙眼男孩的后背就又逃开接着大笑起来；看，还有个淘气的小男孩跟那蒙眼男孩面对面一进一退，待蒙眼男孩伸手过来他又猛地躲开，然后用手撑大眼睛向同伴们做鬼脸... ...，好一幅月下嬉戏图！慢慢的这嬉笑声混成一片，孩子们的身影和月光混在了一起渐渐地模糊消去，待我欲伸手触摸时已是烟消云散，不见踪影。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 这时方记起手中的炸鸡腿来，于是拿起了手中鸡腿边啃口中边念到：“举头望明月，低头啃鸡腿”，咦，别是一番滋味。  &lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 唉,过往的欢乐,如今的惆怅,使我们不得不感叹光阴流逝带来的感伤!学习的压力，感情的失落，纵然一次次的生死离别... ...面对多彩的世界我们有太多的不如意。朋友，何不将诸样世事抛之脑后且让我们敞开胸怀痛饮这无尽的月色。 &lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 若干年后再回忆“月下啃腿”不知又会是怎样的一番感慨？&lt;/p&gt;            </description>
+            <pubDate>2017-02-16 01:20:50</pubDate>
+            <link>http://mygitblog.com/blog/20080419wyhy.html</link>
+            <guid isPermaLink="true">http://mygitblog.com/blog/20080419wyhy.html</guid>
+                                               <category>diary</category>
+                                    </item>
+                <item>
+            <title>今日默哀</title>
+            <description>
+            &lt;!--
+author: clouds.hu
+head: 
+date: 2007-11-13 
+title: 今日默哀
+tags: emotion
+images: 
+category: diary
+status: publish
+summary: 就在今天，寒风袭来，带走了那片早已枯黄的树叶，挽不住，也不会去尝试
+--&gt;
+&lt;pre&gt;&lt;code&gt;   就在今天，寒风袭来，带走了那片早已枯黄的树叶，挽不住，也不会去尝试，
+
+   因为一棵枯死的树木如何去挽留那凋零的叶子。 
+
+   树木，树叶... ... 
+
+   虽没有常青，却化成了最后的火焰... ... 
+
+   心就这样燃过一遍... ... 
+
+   就今天... ... 
+
+   我们一起默哀... ... &lt;/code&gt;&lt;/pre&gt;            </description>
+            <pubDate>2017-02-16 01:31:40</pubDate>
+            <link>http://mygitblog.com/blog/20071113jrma.html</link>
+            <guid isPermaLink="true">http://mygitblog.com/blog/20071113jrma.html</guid>
+                                               <category>diary</category>
                                     </item>
             </channel>
 </rss>
