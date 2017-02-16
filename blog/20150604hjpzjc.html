@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="keywords" content="wamp,CloudS Hu的博客">
+	<meta name="description" content="双击D:\PHPTools\apache2.4\apache24\bin\ApacheMonitor.exe启动">
+
+	<!--[if lt IE 9]>
+	<script src="/theme/default/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+	
+	<title>WAMP环境搭建教程|CloudS Hu的博客</title>
+	
+	<link rel="stylesheet" href="/theme/default/css/genericons.css?ver=2.2" type="text/css" media="all" />
+	<link rel="stylesheet" href="/theme/default/css/style.css?ver=2.2" type="text/css" media="all" />
+	<link rel="stylesheet" href="/theme/default/css/markdown.css?ver=2.2" type="text/css" media="all" />
+	<link rel="alternate" type="application/rss+xml" title="CloudS Hu的博客" href="/feed.xml" />
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="/theme/default/css/ie.css?ver=2.2" type="text/css" media="all" />
+	<![endif]-->
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" href="/theme/default/css/ie7.css?ver=2.2" type="text/css" media="all" />
+	<![endif]-->
+	
+	<script type="text/javascript" src="/theme/default/js/jquery/jquery.js?ver=2.2"></script>
+	<script type="text/javascript" src="/theme/default/js/jquery/jquery-migrate.min.js?ver=2.2"></script>
+	
+	
+</head>
+
+<body>
+<div id="page" class="hfeed site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	
+	    <div id="sidebar" class="sidebar">
+	<header id="masthead" class="site-header" role="banner">
+		<div class="site-branding">
+			<h1 class="site-title"><a href="/" rel="home">CloudS Hu的博客</a></h1>
+				<p class="site-description">如果一个人不知道要驶向哪个码头，那么任何风都不会是顺风！</p>
+				<button class="secondary-toggle">菜单和挂件</button>
+		</div><!-- .site-branding -->
+	</header><!-- .site-header -->
+	<div id="secondary" class="secondary">
+		<div id="widget-area" class="widget-area" role="complementary">
+		
+			<aside id="categories" class="widget widget_categories">
+    <h2 class="widget-title">分类目录</h2>
+    <ul>
+                <li class="cat-item"><a href="/category/1573463911.html" >diary</a></li>
+                <li class="cat-item"><a href="/category/1849290301.html" >relax</a></li>
+                <li class="cat-item"><a href="/category/1465363426.html" >wamp</a></li>
+            </ul>
+</aside>
+		    <aside class="widget widget_archive">
+    <h2 class="widget-title">文章归档</h2>
+    <ul>
+        <li><a href="/archive/201506.html">2015-06</a></li>
+        <li><a href="/archive/201005.html">2010-05</a></li>
+        <li><a href="/archive/200811.html">2008-11</a></li>
+        <li><a href="/archive/200806.html">2008-06</a></li>
+        <li><a href="/archive/200804.html">2008-04</a></li>
+        <li><a href="/archive/200711.html">2007-11</a></li>
+        </ul>
+</aside>
+		    <aside id="recent-posts" class="widget widget_recent_entries">
+    <h2 class="widget-title">近期文章</h2>
+    <ul>
+        <li><a href="/blog/20150604hjpzjc.html">WAMP环境搭建教程</a></li>
+        <li><a href="/blog/20100507ssza.html">首首最爱</a></li>
+        <li><a href="/blog/20081105jegbzsn.html">饥饿赶不走思念</a></li>
+        <li><a href="/blog/20080620sxykx.html">尸行夜空下</a></li>
+        <li><a href="/blog/20080419wyhy.html">望月怀远</a></li>
+        </ul>
+</aside>
+		    <aside id="tag_cloud" class="widget widget_tag_cloud">
+    <h2 class="widget-title">标签</h2>
+    <div class="tagcloud">
+        <a href="/tags/848456478.html" title="emotion" >emotion</a>
+        <a href="/tags/680406610.html" title="music" >music</a>
+        <a href="/tags/1465363426.html" title="wamp" >wamp</a>
+        </div>
+</aside>
+		    <aside id="text" class="widget widget_text">
+    <h2 class="widget-title">简介</h2>	
+    <div class="textwidget">
+    	<p>胡云南的博客</p>
+    </div>
+</aside>
+	    </div><!-- .widget-area -->
+    </div><!-- .secondary -->
+</div><!-- .sidebar -->  
+	    <div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+        
+            <article class="post hentry">
+<header class="entry-header">
+    <h1 class="entry-title">WAMP环境搭建教程</h1>
+</header><!-- .entry-header -->
+<div class="entry-content">
+<!--
+author: clouds.hu
+head: 
+date: 2015-06-04
+title: WAMP环境搭建教程
+tags: wamp
+images: 
+category: wamp
+status: publish
+summary: 
+-->
+<h2>一、下载软件包:</h2>
+<ol>
+<li>PHP<br>
+<a href="http://php.net/">php下载</a><br>
+php-5.5.35-Win32-VC11-x64.zip&nbsp;&nbsp;这里我们选择的是线程安全版</li>
+<li>MySQL<br>
+<a href="https://www.mysql.com/">MySQL下载</a><br>
+Note: MySQL Installer is 32 bit, but will install both 32 bit and 64 bit binaries.<br>
+mysql-installer-community-5.5.49.0.msi  安装版<br>
+mysql-5.7.12-winx64.zip 免安装版<br>
+有安装版和免安装版, 这里我们选择的是安装版.</li>
+<li>Apache<br>
+<a href="http://www.apache.org/">apache下载</a><br>
+<a href="http://www.apachelounge.com/download/">http://www.apachelounge.com/download/</a></li>
+<li>VC11<br>
+安装apache前必须先安装VC11（VSU_4\vcredist_x64.exe）
+<a href="http://www.microsoft.com/en-us/download/details.aspx?id=30679">VC11下载地址</a>
+选择英文版的</li>
+</ol>
+<h2>二、安装:</h2>
+<ol>
+<li>安装VC11，双击打开，点击若干个下一步直至安装成功就OK了；</li>
+<li>Apache 下载后是zip包，解压放在合适的位置就可以了，这里我们放在D:\PHPTools文件夹下的apache2.4目录下</li>
+<li>PHP下载后也是zip包，同样解压到合适位置，我们这里也将其放在D:\PHPTools文件夹下的php5.5目录下</li>
+<li>MySQL安装<br>
+<a href="http://jingyan.baidu.com/article/4b07be3c67853c48b380f311.html">安装教程</a></li>
+</ol>
+<h2>三、配置(MySQL、PHP):</h2>
+<ol>
+<li>将D:\phptools\php5.5\php.ini-production 复制一份，并重命名为php.ini；</li>
+<li>右键属性--&gt;高级系 统设置 --&gt;环境变量--&gt;系统变量，找到Path，编辑，在其后加上
+;C:\Program Files\MySQL\MySQL Server 5.5\bin;D:\PHPTools\php5.5;D:\PHPTools\php5.5\ext</li>
+</ol>
+<h2>四、配置Apache:</h2>
+<ol>
+<li>用记事本打开F:\phptools\Apache2.4\Apache24\conf\httpd.conf
+查找ServerRoot，修改ServerRoot &quot;C:/Apache24&quot; =&gt; ServerRoot &quot;D:\PHPTools\apache2.4\apache24&quot;
+（这里输入的是你解压apache安装包后放的位置）</li>
+<li>
+<h1>ServerName www.example.com:80 去掉</h1>
+</li>
+<li>DocumentRoot &quot;c:/Apache24/htdocs&quot; ， 修改为DocumentRoot &quot;F:/phptools/Apache2.4/Apache24/htdocs&quot;</li>
+<li>&lt;Directory &quot;c:/Apache24/htdocs&quot;&gt; ，修改为 &lt;Directory &quot; F:/phptools/Apache2.4/Apache24/htdocs &quot;&gt;</li>
+<li>查找DirectoryIndex index.html ，添加index.php index.htm</li>
+<li>c/cgi-bin/ &quot;c:/Apache24/cgi-bin/&quot;  ，修改为 ScriptAlias /cgi- bin/ &quot;D:/PHPTools/apache2.4/apache24/cgi-bin/&quot;</li>
+<li>&lt;Directory &quot;c:/Apache24/cgi-bin&quot;&gt; 修改为 &lt;Directory &quot;D:/PHPTools/apache2.4/apache24/cgi-bin&quot;&gt;</li>
+<li>在D:\PHPTools\apache2.4\apache24\conf\httpd.conf最后一行添加
+LoadModule php5_module &quot;D:/PHPTools/php5.5/php5apache2_4.dll&quot;
+让apache支持php（请确认D:/PHPTools/php5.5/有php5apache2_4.dll）</li>
+<li>添加AddType application/x-httpd-php .php .html .htm</li>
+<li>PHPIniDir &quot;D:/PHPTools/php5.5&quot; （告诉apache php.ini的位置）<br>
+<strong>httpd.conf 配置完成，保存httpd.conf</strong></li>
+</ol>
+<h2>五、将Apache安装到系统服务中:</h2>
+<p>以管理员身份运行cmd.exe，cd到apache所在的磁盘D:，
+输入D:\PHPTools\apache2.4\apache24\bin\httpd -k install回车安装</p>
+<h2>六、开启常用的PHP扩展:</h2>
+<p>记事本打开D:\PHPTools\php5.5\php.ini开启如下扩展
+1、;extension_dir = &quot;ext&quot;
+2、;extension=php_mbstring.dll（php多字节字符串扩展）
+3、;extension=php_mysql.dll
+4、;extension=php_mysqli.dll</p>
+<h2>七、启动apache和mysql:</h2>
+<p>双击D:\PHPTools\apache2.4\apache24\bin\ApacheMonitor.exe启动</p>
+<h2>八、搭建过程遇到的问题:</h2>
+<ol>
+<li>路由问题(一般存在下面三个问题, 如果还有出现其他情况 ,可以提出来一起研究):<br>
+第一步检查httpd.conf中#LoadModule rewrite_module modules/mod_rewrite.so是否开启;<br>
+第二步检查httpd.conf和httpd-vhosts.conf的AllowOverride None全部更改为All<br>
+第三步检查.htaccess 文件设置RewriteEngine On是否为on</li>
+<li>openssl问题<br>
+(1) 首先检查php.ini中；extension=php_openssl.dll是否存在， 如果存在的话去掉前面的注释符‘；’， 如果不存在这行，那么添加extension=php_openssl.dll。<br>
+(2) 将php文件夹下的： php_openssl.dll， ssleay32.dll， libeay32.dll 3个文件拷贝到 WINDOWS\system32\ 文件夹下。<br>
+(3) 如果没有 php_openssl.dll ，点击下载 <a href="http://www.haorooms.com/uploads/js/php_openssl%28haorooms.com%29.rar">php_openssl.dll</a>
+下载下来有很多个php_openssl，找到你相应php版本下面的php_openssl。
+查看php版本(phpinfo()), 找到相应版本之后，按照上面讲的第二步来就可以了。<br>
+(4) 重启apache至此，openssl功能就开启了。</li>
+</ol>
+<h2>九、其他配置:</h2>
+<ol>
+<li>
+<p>配置apache根目录
+在httpd.conf下找到
+DocumentRoot &quot;D:\PHPTools\apache2.4\apache24\htdocs&quot;  =&gt;配置你的目录
+&lt;Directory &quot;D:\PHPTools\apache2.4\apache24\htdocs&quot;&gt;  =&gt;配置你的目录
+... ...
+</Directory></p>
+</li>
+<li>配置虚拟主机, 在httpd.conf=》
+#Virtual hosts
+#Include conf/extra/httpd-vhosts.conf（去掉#）</li>
+</ol>
+<p>在httpd-vhosts.conf中进行配置<br></p>
+<pre><code class="language-blade">&lt;VirtualHost *:80&gt;
+    DocumentRoot "E:/workspace/demo"
+    ServerName demo.com
+    DirectoryIndex index.php
+    &lt;Directory/&gt;
+    Options FollowSymLinks
+    AllowOverride None
+    Order allow,deny
+    Allow from all
+    &lt;/Directory&gt;
+&lt;/VirtualHost&gt;</code></pre>
+<h2>十、常用网址</h2>
+<pre>
+svn/git web:
+https://tortoisesvn.net/
+https://tortoisegit.org/
+git web:
+https://git-scm.com/
+mysql:
+https://www.mysql.com/
+svn web:
+https://tortoisesvn.net/
+apache:
+http://www.apache.org/
+http://www.apachelounge.com/download/
+php:
+http://php.net/
+nodejs:
+http://nodejs.org/
+VC11:
+http://www.microsoft.com/en-us/download/details.aspx?id=30679
+</pre>
+</div><!-- .entry-content --><footer class="entry-footer">
+	    <span class="posted-on">
+        <span class="screen-reader-text">Posted on </span>
+        <time class="entry-date published">2015-06-04</time>
+    </span>
+		
+	    <span class="byline">
+        <span class="author vcard">
+            <span class="screen-reader-text">Author </span>
+            clouds.hu
+        </span>
+    </span>
+        
+        <span class="cat-links">
+        <span class="screen-reader-text">Categories </span>
+          
+           <a href="/category/1465363426.html" rel="category">wamp</a>
+            </span>
+        
+    
+        <span class="tags-links">
+    	
+        <span class="screen-reader-text">Tags </span>
+          
+           <a href="/tags/1465363426.html" rel="tag">wamp</a>
+            </span>
+    </footer><!-- .entry-footer --></article><!-- #post-## -->            <div id="comments" class="comments-area">
+	<div id="respond" class="comment-respond">
+		<!-- 多说评论框 start -->
+		<div class="ds-thread" data-thread-key="6cb16b360000d5491bcba2cfb4a852c1" data-title="WAMP环境搭建教程" data-url=""></div>
+		<script type="text/javascript">
+		document.getElementsByClassName("ds-thread")[0].setAttribute('data-url', location.href);
+		</script>
+		<!-- 多说评论框 end -->
+		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+		<script type="text/javascript">
+		var duoshuoQuery = {short_name:"clouds-hu"};
+		(function() {
+			var ds = document.createElement('script');
+			ds.type = 'text/javascript';ds.async = true;
+			ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+			ds.charset = 'UTF-8';
+			(document.getElementsByTagName('head')[0] 
+			 || document.getElementsByTagName('body')[0]).appendChild(ds);
+		})();
+		</script>
+        <!-- 多说公共JS代码 end -->
+	</div><!-- #respond -->
+</div><!-- .comments-area -->
+            
+        </main><!-- .site-main -->
+    </div><!-- .content-area -->
+</div><!-- .site-content -->	    <footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="site-info">
+        <a href="https://github.com/CloudS-Hu/clouds-hu.github.io">© 2017 CloudS Hu ❖ Powered by gitblog</a>
+    </div><!-- .site-info -->
+</footer><!-- .site-footer -->
+	
+</div><!-- .site -->
+<script type="text/javascript" src="/theme/default/js/skip-link-focus-fix.js?ver=2.2"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">\u5c55\u5f00\u5b50\u83dc\u5355<\/span>","collapse":"<span class=\"screen-reader-text\">\u6298\u53e0\u5b50\u83dc\u5355<\/span>"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/theme/default/js/functions.js?ver=2.2"></script>
+
+<link rel="stylesheet" href="//cdn.bootcss.com/highlight.js/8.6/styles/github.min.css">
+<script src="//cdn.bootcss.com/highlight.js/8.6/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</body>
+</html>
