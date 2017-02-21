@@ -1,65 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0bb8559-449e-4944-b2aa-9dc47789b1d5" name="Default" comment="添加日志">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/20170216resume.html" afterPath="" />
+    <list default="true" id="d0bb8559-449e-4944-b2aa-9dc47789b1d5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/200711.html" afterPath="$PROJECT_DIR$/archive/200711.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/200711/page/1.html" afterPath="$PROJECT_DIR$/archive/200711/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/200804.html" afterPath="$PROJECT_DIR$/archive/200804.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/200804/page/1.html" afterPath="$PROJECT_DIR$/archive/200804/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/200806.html" afterPath="$PROJECT_DIR$/archive/200806.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/200806/page/1.html" afterPath="$PROJECT_DIR$/archive/200806/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/200811.html" afterPath="$PROJECT_DIR$/archive/200811.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/200811/page/1.html" afterPath="$PROJECT_DIR$/archive/200811/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/201005.html" afterPath="$PROJECT_DIR$/archive/201005.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/201005/page/1.html" afterPath="$PROJECT_DIR$/archive/201005/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/201506.html" afterPath="$PROJECT_DIR$/archive/201506.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/201506/page/1.html" afterPath="$PROJECT_DIR$/archive/201506/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/201606.html" afterPath="$PROJECT_DIR$/archive/201606.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/201606/page/1.html" afterPath="$PROJECT_DIR$/archive/201606/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/201702.html" afterPath="$PROJECT_DIR$/archive/201702.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/201702/page/1.html" afterPath="$PROJECT_DIR$/archive/201702/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/20071113jrma.html" afterPath="$PROJECT_DIR$/blog/20071113jrma.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/20080419wyhy.html" afterPath="$PROJECT_DIR$/blog/20080419wyhy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/20080620sxykx.html" afterPath="$PROJECT_DIR$/blog/20080620sxykx.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/20081105jegbzsn.html" afterPath="$PROJECT_DIR$/blog/20081105jegbzsn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/20100507ssza.html" afterPath="$PROJECT_DIR$/blog/20100507ssza.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/20150604hjpzjc.html" afterPath="$PROJECT_DIR$/blog/20150604hjpzjc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/20160622gitpagesblog.html" afterPath="$PROJECT_DIR$/blog/20160622gitpagesblog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/1238426547.html" afterPath="$PROJECT_DIR$/category/1238426547.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/1238426547/page/1.html" afterPath="$PROJECT_DIR$/category/1238426547/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/1465363426.html" afterPath="$PROJECT_DIR$/category/1465363426.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/1465363426/page/1.html" afterPath="$PROJECT_DIR$/category/1465363426/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/1573463911.html" afterPath="$PROJECT_DIR$/category/1573463911.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/1573463911/page/1.html" afterPath="$PROJECT_DIR$/category/1573463911/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/1849290301.html" afterPath="$PROJECT_DIR$/category/1849290301.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/1849290301/page/1.html" afterPath="$PROJECT_DIR$/category/1849290301/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/187477783.html" afterPath="$PROJECT_DIR$/category/187477783.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/category/187477783/page/1.html" afterPath="$PROJECT_DIR$/category/187477783/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feed.xml" afterPath="$PROJECT_DIR$/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/1.html" afterPath="$PROJECT_DIR$/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1238426547.html" afterPath="$PROJECT_DIR$/tags/1238426547.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1238426547/page/1.html" afterPath="$PROJECT_DIR$/tags/1238426547/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1464315259.html" afterPath="$PROJECT_DIR$/tags/1464315259.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1464315259/page/1.html" afterPath="$PROJECT_DIR$/tags/1464315259/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1465363426.html" afterPath="$PROJECT_DIR$/tags/1465363426.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1465363426/page/1.html" afterPath="$PROJECT_DIR$/tags/1465363426/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1757006862.html" afterPath="$PROJECT_DIR$/tags/1757006862.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1757006862/page/1.html" afterPath="$PROJECT_DIR$/tags/1757006862/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1783669539.html" afterPath="$PROJECT_DIR$/tags/1783669539.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1783669539/page/1.html" afterPath="$PROJECT_DIR$/tags/1783669539/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1806945563.html" afterPath="$PROJECT_DIR$/tags/1806945563.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/1806945563/page/1.html" afterPath="$PROJECT_DIR$/tags/1806945563/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/360986629.html" afterPath="$PROJECT_DIR$/tags/360986629.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/360986629/page/1.html" afterPath="$PROJECT_DIR$/tags/360986629/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/680406610.html" afterPath="$PROJECT_DIR$/tags/680406610.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/680406610/page/1.html" afterPath="$PROJECT_DIR$/tags/680406610/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/848456478.html" afterPath="$PROJECT_DIR$/tags/848456478.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/848456478/page/1.html" afterPath="$PROJECT_DIR$/tags/848456478/page/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/994720195.html" afterPath="$PROJECT_DIR$/tags/994720195.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tags/994720195/page/1.html" afterPath="$PROJECT_DIR$/tags/994720195/page/1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/resume.html" afterPath="$PROJECT_DIR$/blog/resume.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,6 +31,7 @@
       <find>&lt;div id=&quot;comments&quot; class=&quot;comments-area&quot;&gt;</find>
       <find>comment-</find>
       <find>none</find>
+      <find>node</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;div id=&quot;comments&quot; style=&quot;display:none;&quot; class=&quot;comments-area&quot;&gt;</replace>
@@ -352,7 +297,7 @@
       <updated>1487167029446</updated>
       <workItem from="1487167030821" duration="97000" />
       <workItem from="1487167245890" duration="2823000" />
-      <workItem from="1487203282790" duration="17714000" />
+      <workItem from="1487203282790" duration="19565000" />
     </task>
     <task id="LOCAL-00001" summary="添加日志">
       <created>1487167870776</created>
@@ -508,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487646729010</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="添加日志">
+      <created>1487659151438</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1487659151438</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20634000" />
+    <option name="totallyTimeSpent" value="22485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -648,6 +600,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3232">
           <caret line="378" column="0" lean-forward="false" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../workProject/meeting/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
           <folding />
         </state>
       </provider>
