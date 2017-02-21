@@ -4,8 +4,8 @@
         <description>胡云南的个人博客.</description>
         <link>http://mygitblog.com</link>
         <atom:link href="http://mygitblog.com/feed.xml" rel="self" type="application/rss+xml" />
-        <pubDate>2017-02-20 10:02:25</pubDate>
-        <lastBuildDate>2017-02-20 10:02:25</lastBuildDate>
+        <pubDate>2017-02-21 06:02:14</pubDate>
+        <lastBuildDate>2017-02-21 06:02:14</lastBuildDate>
         <generator>Gitblog v1.0</generator>
                 <item>
             <title>简历</title>
@@ -34,6 +34,14 @@ summary: 合理的要求是训练，不合理的要求是磨练。
 &lt;/ul&gt;
 &lt;h3 style=&quot;border:0;color:rgb(100,130,20);&quot;&gt;技能清单&lt;/h3&gt;
 &lt;hr style=&quot;border-style: solid; border-left-style: none;color:rgb(100,110,60);&quot;&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;熟练使用git和svn进行团队协作开发，熟练掌握常用linux命令；&lt;/li&gt;
+&lt;li&gt;熟悉PHP面向对象程序开发，在工作中能够熟练的使用Laravel、Zend和ThinkPHP等主流MVC框架进行项目开发；&lt;/li&gt;
+&lt;li&gt;有一定的数据库规划能力，熟悉各种web缓存技术，对Memcache、Redis以及MongoDB有较深的了解；&lt;/li&gt;
+&lt;li&gt;熟练掌握HTML、JavaScript、CSS和ajax等前端技术，熟悉bootstrap、jQuery及vueJS等前端框架，且有实际项目经验，有前后端分离项目开发经验。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;web开发：&lt;a href=&quot;PHP&quot;&gt;PHP&lt;/a&gt; / &lt;a href=&quot;JavaScript&quot;&gt;JavaScript&lt;/a&gt; / &lt;a href=&quot;html&quot;&gt;html&lt;/a&gt; / &lt;a href=&quot;CSS&quot;&gt;CSS&lt;/a&gt; / &lt;a href=&quot;Ajax&quot;&gt;Ajax&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;web框架：&lt;a href=&quot;laravel&quot;&gt;laravel&lt;/a&gt; / &lt;a href=&quot;zend&quot;&gt;zend&lt;/a&gt; / &lt;a href=&quot;thinkphp&quot;&gt;thinkphp&lt;/a&gt; / &lt;a href=&quot;yii&quot;&gt;yii&lt;/a&gt;&lt;/li&gt;
@@ -47,7 +55,7 @@ summary: 合理的要求是训练，不合理的要求是磨练。
 &lt;h3 style=&quot;border:0;color:rgb(100,130,20);&quot;&gt;自我评价&lt;/h3&gt;
 &lt;hr style=&quot;border-style: solid; border-left-style: none;color:rgb(100,110,60);&quot;&gt;
 &lt;blockquote&gt;
-&lt;p&gt;热爱开源，乐于分享，对自己编码规范要求严格，超强的学习能力和解决问题的能力，从不将自己局限于技术层面，对产品设计、用户体验也有一定自己的理解。&lt;/p&gt;
+&lt;p&gt;自学能力强，善于思考，吃苦耐劳，有良好的沟通能力，善于与他人相处，富有团队合作精神，对自己编码规范要求严格，从不将自己局限于技术层面，对产品设计、用户体验也有一定自己的理解。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 style=&quot;border:0;color:rgb(100,130,20);&quot;&gt;工作经历&lt;/h3&gt;
 &lt;hr style=&quot;border-style: solid; border-left-style: none;color:rgb(100,110,60);&quot;&gt;
@@ -87,7 +95,7 @@ summary: 合理的要求是训练，不合理的要求是磨练。
 &lt;ul&gt;&lt;ul style=&quot;list-style:circle;&quot;&gt;&lt;li&gt;管理：使用Jira项目管理软件和git版本控制工具进行团队协作开发；&lt;/li&gt;
     &lt;li&gt;设计：使用Axure RP进行产品及业务流程设计；&lt;/li&gt;
     &lt;li&gt;前端：使用Centaurus实现主要的前端页面架构，利用DataTables、bootstrap、notification等各种插件实现前端页面及功能；&lt;/li&gt;
-    &lt;li&gt;后端：使用 PHP + Laravel5.1 + MySQL进行后端开发（前后端分离），采用Redis做系统数据缓存，并实现了定时任务和单元测试功能（phpUnit）&lt;/li&gt;    
+    &lt;li&gt;后端：使用 PHP + Laravel5.1 + MySQL进行后端开发（前后端分离），采用Redis做系统数据缓存，每个业务流程都实现了单元测试功能（phpUnit），以及部分业务功能做定时任务处理；&lt;/li&gt;  
     &lt;li&gt;API：使用Swagger自动生成API文档；&lt;/li&gt;
   &lt;/ul&gt;&lt;/ul&gt;
 &lt;ul&gt;
@@ -152,8 +160,8 @@ summary: 合理的要求是训练，不合理的要求是磨练。
 &lt;p&gt;感谢您花时间阅读我的简历，期待能有机会和您共事。&lt;/p&gt;
 &lt;/blockquote&gt;            </description>
             <pubDate>2017-02-16 08:38:10</pubDate>
-            <link>http://mygitblog.com/blog/20170216resume.html</link>
-            <guid isPermaLink="true">http://mygitblog.com/blog/20170216resume.html</guid>
+            <link>http://mygitblog.com/blog/resume.html</link>
+            <guid isPermaLink="true">http://mygitblog.com/blog/resume.html</guid>
                                                <category>job</category>
                                     </item>
                 <item>
